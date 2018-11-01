@@ -1,8 +1,8 @@
 ## These are raw backup config files (mainly i3)
 
 # Install i3 script (with i3-gaps)
-- Just install git `sudo apt install git` cd into the `install-i3-w-gaps` folder and then run the script: `sudo bash ./install.sh`
-
+Just install git using apt and clone this repo
+### INSTALLATION SCRIPT IS AT INSTALL FOLDER
     - Remember to add these lines in your config for it to work:
         - `gaps outer <# of px>`
         - `gaps innter <# of px>`
