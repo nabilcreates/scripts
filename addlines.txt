@@ -6,7 +6,6 @@ gaps inner 10
 for_window [class="^.*"] border pixel 3
 
 set $border-color #ff0000
-
 # Set border colors of focused ones
 #                       border          background              text            indicator
-client.focused          #ff0000           $border-color          #000000          #ff0000
+client.focused          #000000           $border-color          #000000        $border-color

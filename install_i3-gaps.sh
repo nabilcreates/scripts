@@ -3,7 +3,7 @@
 # RUN BY:  sudo bash ./script.sh
 
 # Install all dependencies
-sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool libxcb-xrm-dev
+sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool libxcb-xrm-dev automake -y
 
 # Install i3-gaps and build it
 cd /tmp
@@ -17,9 +17,6 @@ cd build
 ../configure --prefix=/usr --sysconfdir=/etc
 make
 sudo make install
-
-# Clear the terminal
-clear
 
 # Done
 echo "====================================================================="
