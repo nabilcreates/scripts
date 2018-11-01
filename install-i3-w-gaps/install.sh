@@ -1,5 +1,3 @@
-# RUN USING: SUDO BASH ./INSTALL_13-GAPS.SH
-
 #!/bin/bash
 
 # Update Repositories
