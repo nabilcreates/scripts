@@ -1,8 +1,11 @@
 ## These are raw backup config files (mainly i3)
 
 # Folder structure
-- ./_config is where all my personal config is
-- ./raw is where the raw config files is at (remove all *.backup)
+- ./config is where all my personal config is
+- ./_raw is where the raw config files is at (remove all *.backup)
+
+# Install i3 script
+- Just install git and then run the script: sudo bash ./install_i3-gaps.sh
 
 # Usage
 - ## mv
