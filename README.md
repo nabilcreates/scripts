@@ -1,6 +1,8 @@
 ## These are raw backup config files (mainly i3)
 
-# Install i3 script (with i3-gaps)
+# Install scripts
+- install i3 script
+- install i3-gaps script
 Just install git using apt and clone this repo
 ### INSTALLATION SCRIPT IS AT INSTALL FOLDER
     - Remember to add these lines in your config for it to work:
