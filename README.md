@@ -5,6 +5,7 @@ Just install git using apt and clone this repo
 # Install scripts
 - install i3 script
 - install i3-gaps script
+- install basic (nodejs and npm) script
 
 ### INSTALLATION SCRIPT IS AT INSTALL FOLDER
 - Remember to add these lines in your config (i3-gaps) for it to work:
